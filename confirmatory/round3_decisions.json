@@ -1,0 +1,61 @@
+{
+ "A1": {
+  "n_excluded": 0,
+  "n_conditions": 144,
+  "n_cells": 48,
+  "intercept": 0.0946065819085918,
+  "beta_b": 0.21843977335949571,
+  "g_H": 0.010152487486213571,
+  "g_H_ci": [
+   0.003879285353761145,
+   0.016509071802747566
+  ],
+  "g_S": -0.009149897208720215,
+  "g_S_ci": [
+   -0.017884325440155068,
+   -0.0007044800313205803
+  ],
+  "residual_sd": 0.021772071982895665,
+  "decision": "no detectable curvature effect",
+  "decision_cap_secondary": "no detectable curvature effect"
+ },
+ "A2": {
+  "hyperbolic_minus_euclid": {
+   "mean": 0.020830941882041723,
+   "ci95": [
+    0.013980212600308224,
+    0.028056722353616715
+   ]
+  },
+  "cap_minus_euclid": {
+   "mean": -0.02935523647407849,
+   "ci95": [
+    -0.04002088817529952,
+    -0.018791538342446623
+   ]
+  },
+  "n_cells_H": 48,
+  "n_cells_S": 48
+ },
+ "A_methods": {
+  "best_method_counts": {
+   "gdp": 74,
+   "lbfgsb": 70
+  },
+  "max_abs_score_vs_recomputed": 0.0,
+  "n_runs": 5760
+ },
+ "B1": {
+  "n_conditions": 20,
+  "share_within_1": 1.0,
+  "share_exact": 0.75,
+  "mean_abs_error_disks": 0.25,
+  "mean_rel_error": 0.029851190476190476,
+  "mean_signed_error_by_space": {
+   "H2": -0.125,
+   "R2": -0.25,
+   "S2cap": 0.125
+  },
+  "decision": "supported"
+ }
+}

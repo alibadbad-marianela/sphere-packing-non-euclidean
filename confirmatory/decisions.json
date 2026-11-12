@@ -1,0 +1,103 @@
+{
+ "C1": {
+  "n_conditions": 26,
+  "spearman": 0.868034188034188,
+  "perm_p_one_sided": 4.999750012499375e-05,
+  "within_space": {
+   "H2": 0.9393939393939393,
+   "R2": 0.6363636363636362,
+   "S2cap": 0.6571428571428573
+  },
+  "decision": "supported"
+ },
+ "C1_exploratory_without_two_largest_hyperbolic": {
+  "n_conditions": 24,
+  "spearman": 0.8321739130434782,
+  "perm_p_one_sided": 0.0001999600079984003
+ },
+ "C2": {
+  "intercept": -0.0829288021659101,
+  "beta_boundary": 0.7721756426749864,
+  "gamma_hyperbolic": -0.010039783357227317,
+  "gamma_cap": 0.02341500819251053,
+  "ci95_gamma_hyperbolic": [
+   -0.06847228712292404,
+   0.03891002952926569
+  ],
+  "decision": "inconclusive"
+ },
+ "C3": {
+  "kruskal_chi2": 9.087719298245617,
+  "kruskal_p": 0.01063229034738768,
+  "median_d": {
+   "H2": 0.001552318804075384,
+   "R2": -0.00842296965604597,
+   "S2cap": -0.005149528132044081
+  },
+  "ci90_median_difference": {
+   "S2cap-R2": [
+    0.001504550916532255,
+    0.009933096768465113
+   ],
+   "S2cap-H2": [
+    -0.010883393590847348,
+    0.0022373943572216674
+   ],
+   "R2-H2": [
+    -0.014259771064395863,
+    -0.004514080963651155
+   ]
+  },
+  "decision": "ranking depends on the space"
+ },
+ "C4": {
+  "share_new_baseline_beats_gd_and_sa": 1.0,
+  "n_conditions": 33,
+  "share_gdp_rank_top2": 0.9090909090909091,
+  "mean_rank_by_method": {
+   "bh": 2.859,
+   "gd": 4.239,
+   "gdp": 1.698,
+   "lbfgsb": 2.482,
+   "ls": 5.997,
+   "sa": 3.724
+  },
+  "decision_baselines_matter": true,
+  "decision_gdp_competitive": true
+ },
+ "C5": {
+  "median_W": 0.8984126984126984,
+  "min_W": 0.7206349206349206,
+  "share_same_top_method_1500_vs_3000": 0.696969696969697,
+  "decision": "ranking stable across budgets"
+ },
+ "C6": {
+  "by_N": {
+   "9": {
+    "best_share": 1.0,
+    "best_method": "gdp"
+   },
+   "13": {
+    "best_share": 0.0,
+    "best_method": "bh"
+   },
+   "14": {
+    "best_share": 0.8,
+    "best_method": "gdp"
+   },
+   "24": {
+    "best_share": 1.0,
+    "best_method": "lbfgsb"
+   }
+  },
+  "decision": "not supported"
+ },
+ "reference_types": {
+  "best found in this round": 16,
+  "published best known (Packomania)": 10,
+  "proven optimum": 4,
+  "published best known (Sloane)": 3
+ },
+ "n_runs": 11880,
+ "max_abs_score_vs_recomputed": 6.907807659217724e-13
+}

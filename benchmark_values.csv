@@ -1,0 +1,16 @@
+n,theta_deg,theta_rad,status,source
+4,109.4712206,1.910633236,proven optimum,Fejes Toth (1943); closed form
+5,90,1.570796327,proven optimum,Schutte & van der Waerden (1951)
+6,90,1.570796327,proven optimum,Fejes Toth (1943); closed form
+7,77.8695,1.359079162,proven optimum,Schutte & van der Waerden (1951)
+8,74.8585,1.306527298,proven optimum,Schutte & van der Waerden (1951)
+9,70.5288,1.230959777,proven optimum,Schutte & van der Waerden (1951)
+10,66.1468,1.15447945,proven optimum,Danzer (1963)
+11,63.4349,1.107147866,proven optimum,Danzer (1963)
+12,63.43494882,1.107148718,proven optimum,Fejes Toth (1943); closed form
+13,57.1367,0.9972235387,proven optimum,Musin & Tarasov (2012)
+14,55.6706,0.9716352666,proven optimum,Musin & Tarasov (2015)
+24,43.6908,0.7625483128,proven optimum,Robinson (1961)
+30,38.5971159,0.6736467542,published best known (not proven),Sloane's tables of spherical codes (as supplied by the author; N = 30 also matches Cohn's compilation)
+40,33.1583563,0.578722492,published best known (not proven),Sloane's tables of spherical codes (as supplied by the author; N = 30 also matches Cohn's compilation)
+60,27.19283,0.4746044164,published best known (not proven),Sloane's tables of spherical codes (as supplied by the author; N = 30 also matches Cohn's compilation)

@@ -1,0 +1,5 @@
+Run times of the follow-up, from file timestamps (container clock, UTC+08:00; UTC in brackets):
+followup_design.csv written (start of runs): 2026-10-30 07:34:00 [2026-10-29 23:34:00 UTC]
+followup_summary.csv written (end of the two-method runs): 2026-10-30 07:42:54 [2026-10-29 23:42:54 UTC]
+mini_lbfgsb_summary.csv written (end of the L-BFGS-B scan of the mini-round conditions): 2026-10-30 07:47:40 [2026-10-29 23:47:40 UTC]
+Hash of PREREGISTRATION_FOLLOWUP.md recorded: 2026-10-29T23:33:06Z. The author confirmed that the four files had been emailed to the adviser before the runs were started.

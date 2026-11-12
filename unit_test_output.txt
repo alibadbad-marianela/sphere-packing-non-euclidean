@@ -1,0 +1,31 @@
+PASS  S2 distance matches arctan2(|a x b|, a.b)  [max err 1.33e-15]
+PASS  S2 closed-form distances (quarter turn, antipode, 0.3 rad)
+PASS  H2 hyperboloid distance equals Poincare disk formula  [max rel err 4.40e-15]
+PASS  H2 point at Euclidean radius tanh(s/2) is at hyperbolic distance s
+PASS  H2 distance equals hyperbolic law of cosines
+PASS  H2 disk area 2 pi (cosh R - 1) matches numeric integral  [17.355387 vs 17.355387]
+PASS  R2 distance of (0,0) and (3,4) is 5
+PASS  R2 hexagonal 7-disk arrangement has radius R/3  [score 1.000000]
+PASS  S2 distance symmetry and triangle inequality (4000 triples)  [sym 0.0e+00, worst violation 0.0e+00]
+PASS  H2 distance symmetry and triangle inequality (4000 triples)  [sym 0.0e+00, worst violation 0.0e+00]
+PASS  R2 distance symmetry and triangle inequality (4000 triples)  [sym 0.0e+00, worst violation 0.0e+00]
+PASS  S2 exponential map moves each point by |v| and stays on the manifold  [dist err 1.1e-15, manifold err 2.2e-16]
+PASS  H2 exponential map moves each point by |v| and stays on the manifold  [dist err 1.1e-14, manifold err 1.4e-13]
+PASS  R2 exponential map moves each point by |v| and stays on the manifold  [dist err 1.1e-16, manifold err 0.0e+00]
+PASS  S2 analytic Riemannian gradient equals finite difference  [fd -6.31917437, analytic -6.31917437]
+PASS  S2 cap analytic Riemannian gradient equals finite difference  [fd -0.34736055, analytic -0.34736055]
+PASS  H2 analytic Riemannian gradient equals finite difference  [fd -0.45180582, analytic -0.45180582]
+PASS  R2 analytic Riemannian gradient equals finite difference  [fd -1.22094738, analytic -1.22094738]
+PASS  S2 cap: distance from the pole is 0, pi/2 at the equator, pi at the antipode
+PASS  S2 cap: area 2 pi (1 - cos R) matches numeric integral  [8.897913 vs 8.897913]
+PASS  S2 cap: random points are uniform by area (share within R/2 matches theory, 4 s.e.)  [0.3247 vs 0.3246]
+PASS  S2 cap: Euclidean limit, 7 disks in a cap of radius 0.05 reach R/3 within 0.2%  [ratio 0.99986]
+PASS  S2 cap: clipping moves outside points exactly to the cap boundary
+PASS  Closed-form Tammes configuration, tetrahedron N=4: min distance 1.910633 rad  [computed 1.910633236249]
+PASS  Closed-form Tammes configuration, octahedron N=6: min distance 1.570796 rad  [computed 1.570796326795]
+PASS  Closed-form Tammes configuration, icosahedron N=12: min distance 1.107149 rad  [computed 1.107148717794]
+PASS  Optimizer suite recovers the N=4 Tammes optimum (best gap < 2e-3 rad over 5 test seeds)  [best gap per optimizer: gd 7.2e-10, sa 7.4e-04, ls 7.1e-04]
+PASS  Optimizer suite recovers the N=6 Tammes optimum (best gap < 2e-3 rad over 5 test seeds)  [best gap per optimizer: gd 3.0e-10, sa 2.1e-04, ls 2.5e-03]
+PASS  Optimizer suite recovers the N=12 Tammes optimum (best gap < 2e-3 rad over 5 test seeds)  [best gap per optimizer: gd 2.5e-09, sa 1.2e-04, ls 6.3e-02]
+
+29 of 29 tests passed

@@ -1,0 +1,15 @@
+{
+ "cpu_model": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+ "logical_cpus": 2,
+ "threads_per_core": "1",
+ "l2_cache": "4 MiB (2 instances)",
+ "memory_gb": 7.8,
+ "os": "Linux-6.18.44-fc-v180-x86_64-with-glibc2.39",
+ "python": "3.13.18",
+ "numpy": "2.5.3",
+ "scipy": "1.18.1",
+ "pandas": "3.0.5",
+ "parallel_workers": 2,
+ "note": "Cloud container; wall-clock times of the confirmatory round were measured with two worker processes sharing the machine.",
+ "recorded_utc": "2026-10-28T21:35:09Z"
+}

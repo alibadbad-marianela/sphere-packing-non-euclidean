@@ -1,0 +1,55 @@
+{
+ "M1": {
+  "spearman": 0.3149183286488868,
+  "perm_p_one_sided": 0.10299485025748713,
+  "decision": "inconclusive"
+ },
+ "M2": {
+  "df": 13,
+  "beta_b0": 0.31697708038671296,
+  "g_H": 0.007063817008257266,
+  "g_H_ci": [
+   -0.032179674659827434,
+   0.046307308676341974
+  ],
+  "g_S": 0.0073582805894823015,
+  "g_S_ci": [
+   -0.0318852110786024,
+   0.04660177225756701
+  ],
+  "e_r0": 0.008167541163560285,
+  "decision": "no detectable curvature effect",
+  "decision_cap_secondary": "no detectable curvature effect"
+ },
+ "M3": {
+  "lambda_euclid": 0.5332905917662725,
+  "mean_abs_error": 0.02826462493047612,
+  "decision": "describes the other spaces"
+ },
+ "K_by_space": {
+  "H2": [
+   22,
+   14,
+   9,
+   36,
+   19,
+   11
+  ],
+  "R2": [
+   14,
+   10,
+   8,
+   14,
+   10,
+   8
+  ],
+  "S2cap": [
+   10,
+   8,
+   7,
+   8,
+   7,
+   6
+  ]
+ }
+}

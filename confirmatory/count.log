@@ -1,0 +1,6 @@
+{'space': 'S2cap', 'area': 6.0, 'radius': 0.3, 'n_ref': 19, 'K': 16, 'K_over_n_ref': 0.8421052631578947, 'share_at_K': 0.75}
+{'space': 'S2cap', 'area': 12.0, 'radius': 0.3, 'n_ref': 38, 'K': 35, 'K_over_n_ref': 0.9210526315789473, 'share_at_K': 0.65}
+{'space': 'R2', 'area': 6.0, 'radius': 0.3, 'n_ref': 19, 'K': 15, 'K_over_n_ref': 0.7894736842105263, 'share_at_K': 0.95}
+{'space': 'R2', 'area': 12.0, 'radius': 0.3, 'n_ref': 38, 'K': 32, 'K_over_n_ref': 0.8421052631578947, 'share_at_K': 0.75}
+{'space': 'H2', 'area': 6.0, 'radius': 0.3, 'n_ref': 19, 'K': 14, 'K_over_n_ref': 0.7368421052631579, 'share_at_K': 1.0}
+{'space': 'H2', 'area': 12.0, 'radius': 0.3, 'n_ref': 38, 'K': 30, 'K_over_n_ref': 0.7894736842105263, 'share_at_K': 0.9}

@@ -1,0 +1,271 @@
+{
+ "tuned": {
+  "bh": 0.1,
+  "gd": 150.0,
+  "gdp": 0.25,
+  "lbfgsb": 700.0,
+  "ls": 0.7,
+  "sa": 0.04
+ },
+ "grids": {
+  "gd": [
+   40,
+   80,
+   150,
+   250,
+   400,
+   700
+  ],
+  "gdp": [
+   0.05,
+   0.1,
+   0.15,
+   0.25,
+   0.35,
+   0.5
+  ],
+  "sa": [
+   0.005,
+   0.01,
+   0.02,
+   0.04,
+   0.08,
+   0.16
+  ],
+  "ls": [
+   0.1,
+   0.15,
+   0.25,
+   0.35,
+   0.5,
+   0.7
+  ],
+  "lbfgsb": [
+   40,
+   80,
+   150,
+   250,
+   400,
+   700
+  ],
+  "bh": [
+   0.05,
+   0.1,
+   0.2,
+   0.4,
+   0.8,
+   1.5
+  ]
+ },
+ "pilot_seeds": [
+  9101,
+  9102,
+  9103,
+  9104
+ ],
+ "pilot_conditions": [
+  [
+   "S2",
+   "11",
+   "None"
+  ],
+  [
+   "S2",
+   "33",
+   "None"
+  ],
+  [
+   "H2",
+   "16",
+   "1.462031046249799"
+  ],
+  [
+   "R2",
+   "16",
+   "1.5957691216057308"
+  ]
+ ],
+ "budget_sweeps": 1500,
+ "mean_relative_by_setting": [
+  {
+   "algorithm": "bh",
+   "value": 0.05,
+   "rel": 0.98324
+  },
+  {
+   "algorithm": "bh",
+   "value": 0.1,
+   "rel": 0.99031
+  },
+  {
+   "algorithm": "bh",
+   "value": 0.2,
+   "rel": 0.98973
+  },
+  {
+   "algorithm": "bh",
+   "value": 0.4,
+   "rel": 0.9726
+  },
+  {
+   "algorithm": "bh",
+   "value": 0.8,
+   "rel": 0.92322
+  },
+  {
+   "algorithm": "bh",
+   "value": 1.5,
+   "rel": 0.87739
+  },
+  {
+   "algorithm": "gd",
+   "value": 40.0,
+   "rel": 0.98213
+  },
+  {
+   "algorithm": "gd",
+   "value": 80.0,
+   "rel": 0.98707
+  },
+  {
+   "algorithm": "gd",
+   "value": 150.0,
+   "rel": 0.98835
+  },
+  {
+   "algorithm": "gd",
+   "value": 250.0,
+   "rel": 0.98641
+  },
+  {
+   "algorithm": "gd",
+   "value": 400.0,
+   "rel": 0.98569
+  },
+  {
+   "algorithm": "gd",
+   "value": 700.0,
+   "rel": 0.98538
+  },
+  {
+   "algorithm": "gdp",
+   "value": 0.05,
+   "rel": 0.99556
+  },
+  {
+   "algorithm": "gdp",
+   "value": 0.1,
+   "rel": 0.99604
+  },
+  {
+   "algorithm": "gdp",
+   "value": 0.15,
+   "rel": 0.99549
+  },
+  {
+   "algorithm": "gdp",
+   "value": 0.25,
+   "rel": 0.99745
+  },
+  {
+   "algorithm": "gdp",
+   "value": 0.35,
+   "rel": 0.99721
+  },
+  {
+   "algorithm": "gdp",
+   "value": 0.5,
+   "rel": 0.99409
+  },
+  {
+   "algorithm": "lbfgsb",
+   "value": 40.0,
+   "rel": 0.98458
+  },
+  {
+   "algorithm": "lbfgsb",
+   "value": 80.0,
+   "rel": 0.98968
+  },
+  {
+   "algorithm": "lbfgsb",
+   "value": 150.0,
+   "rel": 0.99172
+  },
+  {
+   "algorithm": "lbfgsb",
+   "value": 250.0,
+   "rel": 0.99304
+  },
+  {
+   "algorithm": "lbfgsb",
+   "value": 400.0,
+   "rel": 0.99378
+  },
+  {
+   "algorithm": "lbfgsb",
+   "value": 700.0,
+   "rel": 0.99445
+  },
+  {
+   "algorithm": "ls",
+   "value": 0.1,
+   "rel": 0.80991
+  },
+  {
+   "algorithm": "ls",
+   "value": 0.15,
+   "rel": 0.84219
+  },
+  {
+   "algorithm": "ls",
+   "value": 0.25,
+   "rel": 0.85069
+  },
+  {
+   "algorithm": "ls",
+   "value": 0.35,
+   "rel": 0.87593
+  },
+  {
+   "algorithm": "ls",
+   "value": 0.5,
+   "rel": 0.8827
+  },
+  {
+   "algorithm": "ls",
+   "value": 0.7,
+   "rel": 0.88478
+  },
+  {
+   "algorithm": "sa",
+   "value": 0.005,
+   "rel": 0.9724
+  },
+  {
+   "algorithm": "sa",
+   "value": 0.01,
+   "rel": 0.97914
+  },
+  {
+   "algorithm": "sa",
+   "value": 0.02,
+   "rel": 0.9794
+  },
+  {
+   "algorithm": "sa",
+   "value": 0.04,
+   "rel": 0.9882
+  },
+  {
+   "algorithm": "sa",
+   "value": 0.08,
+   "rel": 0.9874
+  },
+  {
+   "algorithm": "sa",
+   "value": 0.16,
+   "rel": 0.98509
+  }
+ ]
+}
